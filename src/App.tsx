@@ -32,7 +32,7 @@ function App() {
     /** initial run and update without prompt */
     fetchRemoteVersion().then((version) => {
       if (version !== appVersion) {
-        hardReloadPage();
+        // hardReloadPage();
       }
     });
 
