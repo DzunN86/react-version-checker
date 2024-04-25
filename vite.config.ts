@@ -10,5 +10,6 @@ export default defineConfig({
   plugins: [react()],
   define: {
     __APP_VERSION__: JSON.stringify(version),
+    __VERSION_CHECK_INTERVAL__: 1000 * 30, // check new version every 30 seconds
   },
 })
